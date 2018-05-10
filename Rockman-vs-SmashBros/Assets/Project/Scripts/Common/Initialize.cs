@@ -17,6 +17,9 @@ public static class Initialize
 
 		// 解像度およびフルスクリーンモードを正規化
 		NormalizeScreen();
+
+		// 目標 FPS を設定
+		Application.targetFrameRate = Global.Game.FPS;
 	}
 
 	/// <summary>
